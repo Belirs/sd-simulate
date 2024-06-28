@@ -1,4 +1,5 @@
 from tkinter import messagebox
+
 import globals
 
 current_best_node = []
@@ -44,7 +45,7 @@ def decide_graph_analysis(mode, transitions, initial_state_key, show_results):
         perform_euler_hamilton_walk(mode, transitions, initial_state_key, show_results)
     else:
         messagebox.showinfo(
-            "UML Diagramm has too many States",
+            "UML Diagram has too many States",
             "Performing longest Path analysis instead",
         )
         if mode == "node":

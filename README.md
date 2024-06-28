@@ -29,7 +29,8 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-With this tool, you can display and analyze UML state diagrams to get a better understanding of how transitions and regions interact with each other.
+With this tool, you can display, execute and analyze UML state diagrams to get a better understanding of how transitions and regions interact with each other.
+Supported analyses:
 <br/>
 
 * generate the corresponding reachability graph
@@ -64,13 +65,13 @@ If you are having trouble installing the required Python3 Libraries see [here][p
    or Download and save locally
 2. Install [Cairosvg][cairosvg-package]
    ```sh
-   pip install pycairo
+  pip install cairosvg
    ```
 3. Install [Graphviz-pylib][graphviz-package]
    ```sh
    pip install graphviz
    ```
-3. Install [Pycario][pycario-package]
+3. Install [Pycairo][pycairo-package]
    ```sh
    pip install pycairo
    ```
@@ -86,7 +87,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 
 <br/>
 <strong>[Load UML Diagram]</strong> and navigate to the .svg or .txt file containing your graph <br>
-<strong>[Show containtment]</strong> to highlight the currently active region in red <br>
+<strong>[Show containment]</strong> to highlight the currently active region in red <br>
 <strong>[Hint]</strong> to highlight the currently reachable states <br>
 <strong>[Show State Diagram Graph]</strong> to generate the corresponding reachability graph<br>
 <strong>[Reachability analysis]</strong> find all reachable states from the initial state <br>
@@ -104,6 +105,6 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 [graphviz-url]: https://graphviz.org/download/
 [graphviz-package]: https://pypi.org/project/graphviz/
 [cairosvg-package]: https://cairosvg.org/
-[pycario-package]: https://pypi.org/project/pycairo/
+[pycairo-package]: https://pypi.org/project/pycairo/
 
 [product-screenshot]: images/screenshot.png

@@ -26,9 +26,9 @@ from config import (
     TRANSITION_TRACE_TITLE_BG,
 )
 from graph_analysis import (
+    decide_graph_analysis,
     on_reachability_analysis,
     perform_reachability_analysis,
-    decide_graph_analysis,
 )
 
 from graph_visualization import show_state_diagram_graph

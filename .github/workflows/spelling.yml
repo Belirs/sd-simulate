@@ -62,6 +62,7 @@ jobs:
             cspell:python/src/python/python.txt
             cspell:python/src/common/extra.txt
             cspell:filetypes/filetypes.txt
+            cspell:npm/dict/npm.txt
             cspell:software-terms/dict/softwareTerms.txt
             cspell:html/dict/html.txt
             cspell:aws/aws.txt
