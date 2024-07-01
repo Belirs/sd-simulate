@@ -30,7 +30,6 @@ from graph_analysis import (
     on_reachability_analysis,
     perform_reachability_analysis,
 )
-
 from graph_visualization import show_state_diagram_graph
 from GUI import (
     choose_file,
